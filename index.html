@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Clock</title>
+  <style>
+    body{
+      background-color: #1F555C;
+      color: #fff;
+      font-size: 28px;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    p{
+      display: inline;
+    }
+    button{
+      background-color: transparent;
+      color: #fff;
+      border: none;
+      font-size: 20px;
+      padding: 1rem;
+      cursor: pointer;
+    }
+    #reset{
+      font-family: Segoe UI Symbol;
+    }
+    #app{
+      border: 2px solid #13363A;
+      width: 500px;
+      margin: 0 auto;
+      border-radius: 20px;
+      padding-bottom: 10px;
+    }
+  </style>
+</head>
+<h1>Pomodoro Clock</h1>
+<h2>session length</h2>
+<button id="arrow_down">&#8681;</button>
+<p id="time"></p>
+<button id="arrow_up">&#8679;</button>
+<body>
+  <div id="app">
+    <h3>session</h3>
+    <p id="minutes"></p>
+    <p id="semicolon"></p>
+    <p id="secounds"></p>
+  </div>
+  <button id="reset" title="reset">&#9209;</button>
+  <button id="play" title="play">&#9658;</button>
+  <button id="pause" title="pause">&#10074;&#10074;</button>
+  
+  <script src="./index.js"></script>
+</body>
+
+</html>
